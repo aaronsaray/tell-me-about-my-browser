@@ -1,0 +1,42 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+    color: #444444;
+}
+
+#visitor_data {
+    width: 100%;
+}
+#visitor_data td:first-child {
+    background: #ddeeff;
+    width: 25%;
+}
+
+footer {
+    background: #444444;
+    color: #bbbbbb;
+    height: 22px;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    font-size: 12px;
+}
+footer a {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+.panel.no-offset {
+    margin-bottom: 0;
+}
+
+.page-404 body {
+    background-color: #df8686;
+}
+
+#js-template {
+    display: none;
+}

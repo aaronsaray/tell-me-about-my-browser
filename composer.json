@@ -1,0 +1,14 @@
+{
+  "name": "201creative/tellmeaboutmybrowser",
+  "autoload": {
+    "psr-4":  {
+      "AboutBrowser\\": "src/"
+    }
+  },
+  "require": {
+    "pimple/pimple": "~3.0",
+    "slim/slim": "~2.6",
+    "doctrine/orm": "2.4.*",
+    "ua-parser/uap-php": "3.*"
+  }
+}
